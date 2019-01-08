@@ -1,7 +1,9 @@
 About libtiff
 =============
 
-Home: http://www.remotesensing.org/libtiff/
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
+Home: http://www.libtiff.org/
 
 Package license: HPND
 
@@ -9,6 +11,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: Support for the Tag Image File Format (TIFF).
 
+This software provides support for the Tag Image File Format (TIFF), a
+widely used format for storing image data.
 
 
 Current build status
@@ -17,6 +21,7 @@ Current build status
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/libtiff-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libtiff-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/libtiff-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libtiff-feedstock)
 [![Windows](https://img.shields.io/appveyor/ci/conda-forge/libtiff-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/libtiff-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c342178c05bae0700d40eb4/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/libtiff-feedstock)
 
 Current release info
 ====================
@@ -104,3 +109,13 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+* [@mingwandroid](https://github.com/mingwandroid/)
+* [@msarahan](https://github.com/msarahan/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+* [@stuarteberg](https://github.com/stuarteberg/)
+
